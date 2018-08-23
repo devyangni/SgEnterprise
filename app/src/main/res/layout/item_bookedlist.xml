@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/tendp"
+        android:paddingBottom="@dimen/tendp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="@dimen/fifteendp"
+            android:textStyle="bold"
+            android:id="@+id/txt_id"
+            android:layout_weight="1.2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/txt_phonenp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="@dimen/fifteendp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/txt_date"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="@dimen/fifteendp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/txt_qty"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="@dimen/fifteendp"
+            android:textStyle="bold"
+            android:layout_weight="1.2"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/txt_status"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="@dimen/fifteendp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>

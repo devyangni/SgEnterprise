@@ -1,0 +1,22 @@
+<resources>
+
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppBaseThemeDark" parent="@style/Theme.AppCompat">
+        <!--your other properties -->
+        <!--<item name="android:windowDisablePreview">true</item>-->
+        <item name="android:windowBackground">@null</item>
+        <!--your other properties -->
+    </style>
+
+
+
+
+</resources>

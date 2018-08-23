@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"
+        >
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:textColorPrimaryInverse">@color/black</item>
+        <item name="android:textSize">@dimen/common_text_size</item></style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="EditTextTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+
+
+
+    <style name="register_edittext">
+        <item name="android:textColor">@color/grayColor</item>
+        <item name="android:textSize">@dimen/text_17</item>
+        <item name="android:textColorHint">@color/grayColor</item>
+        <item name="android:layout_height">@dimen/fourtydp</item>
+        <item name="android:solidColor">@color/grayColor</item>
+        <item name="android:strokeColor">@color/grayColor</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:drawablePadding">@dimen/text_8</item>
+        <item name="android:background">@color/white_tr</item>
+        <!-- Border Color -->
+        <!--  <item name="android:drawablePadding">@dimen/tendp</item>-->
+    </style>
+
+
+    <style name="register_Textview">
+        <item name="android:textColor">@color/grayColor</item>
+        <item name="android:textSize">@dimen/text_17</item>
+        <item name="android:textColorHint">@color/grayColor</item>
+        <item name="android:layout_height">@dimen/fourtydp</item>
+        <!--   <item name="android:solidColor">@color/white</item>
+           <item name="android:strokeColor">@color/white</item>
+        -->   <item name="android:textAlignment">textStart</item>
+        <item name="android:drawablePadding">@dimen/text_8</item>
+        <item name="android:typeface">normal</item>
+
+        <!--       <item name="android:textColor">@color/LightOrange</item>
+        <item name="android:textSize">@dimen/text_17</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:layout_height">@dimen/thirtydp</item>
+        <item name="android:solidColor">@color/white</item>
+        <item name="android:strokeColor">@color/white</item>
+ -->    <!-- Border Color -->
+        <!--  <item name="android:drawablePadding">@dimen/tendp</item>-->
+    </style>
+
+    <style name="fragment_text">
+        <item name="android:textColor">#ffacacac</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/grayColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/white_tr</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <!-- <item name="colorAccent">@color/white</item>
+        --> <item name="colorControlNormal">@color/grayColor</item>
+        <item name="colorControlActivated">@color/grayColor</item>
+    </style>
+    <style name="BlinkButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name ="android:textStyle">bold</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:background">@drawable/button_shape</item>
+    </style>
+
+
+    <style name="statusbar_trans">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

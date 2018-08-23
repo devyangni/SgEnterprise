@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackgorund"
+    android:layoutDirection="ltr"
+    tools:context=".Home.User.BookOrdersActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/twentydp"
+        android:background="@color/white"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:layout_margin="@dimen/tendp"
+            android:orientation="vertical">
+            <TextView
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Select Customer"
+                android:layout_marginTop="@dimen/tendp"
+             android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edt_border">
+
+        <Spinner
+                android:id="@+id/sp_customer"
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:spinnerMode="dialog"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp" android:textSize="@dimen/fifteendp"
+                />
+        </LinearLayout>
+            <TextView
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Customer Name"
+                android:layout_marginTop="@dimen/tendp"
+                android:inputType="text"
+                android:id="@+id/txt_cnamee"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+
+
+            <EditText
+                android:id="@+id/edt_customername"
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/tendp"
+                android:background="@drawable/edt_border"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:text=""
+                android:textSize="@dimen/fourteendp"
+                />
+
+            <TextView
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Material"
+
+                android:layout_marginTop="@dimen/tendp"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edt_border">
+
+                <Spinner
+                    style="@style/EditTextTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/sp_material"
+                    android:spinnerMode="dialog"
+                    android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Location"
+                
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <EditText
+
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint=""
+                android:padding="@dimen/tendp"
+                android:background="@drawable/edt_border"
+                android:inputType="text"
+                android:id="@+id/edt_location"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <TextView
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Length"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <EditText
+
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint=" "
+                android:id="@+id/edt_lenth"
+                android:padding="@dimen/tendp"
+                android:background="@drawable/edt_border"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <TextView
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Breadth"
+
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <EditText
+
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint=" "
+                android:id="@+id/edt_breadth"
+                android:padding="@dimen/tendp"
+                android:background="@drawable/edt_border"
+                android:inputType="number"
+                android:maxLines="5"
+                android:maxHeight="@dimen/hundreddp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <TextView
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Height"
+
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <EditText
+
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint=" "
+                android:id="@+id/edt_height"
+                android:padding="@dimen/tendp"
+                android:background="@drawable/edt_border"
+                android:inputType="number"
+                android:maxLines="5"
+                android:maxHeight="@dimen/hundreddp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <TextView
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Price"
+
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <EditText
+
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint=" "
+                android:id="@+id/edt_price"
+                android:padding="@dimen/tendp"
+                android:background="@drawable/edt_border"
+                android:inputType="number"
+                android:maxLines="5"
+                android:maxHeight="@dimen/hundreddp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <TextView
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Payment given"
+
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <EditText
+
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint=" "
+                android:id="@+id/edt_paygiven"
+                android:padding="@dimen/tendp"
+                android:background="@drawable/edt_border"
+                android:inputType="number"
+                android:maxLines="5"
+                android:maxHeight="@dimen/hundreddp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <TextView
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Payment due"
+
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <EditText
+
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint=" "
+                android:id="@+id/edt_paydue"
+                android:padding="@dimen/tendp"
+                android:background="@drawable/edt_border"
+                android:inputType="number"
+                android:maxLines="5"
+                android:maxHeight="@dimen/hundreddp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            
+
+
+            <!-- Login Button -->
+
+            <Button
+                android:id="@+id/btn_insert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/twentydp"
+                android:gravity="center"
+                android:layout_margin="@dimen/twentydp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:padding="@dimen/tendp"
+                android:textStyle="bold"
+                android:text="Submit"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/fourteendp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
+

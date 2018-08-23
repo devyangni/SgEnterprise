@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sgenterprises.Home.User.OrderListingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Add New user"
+            android:layout_marginLeft="@dimen/tendp"
+            android:layout_marginRight="@dimen/tendp"
+            android:gravity="center"
+            android:id="@+id/addnew"
+            android:layout_marginTop="@dimen/fivedp"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"
+            android:textSize="@dimen/fifteendp"
+            android:textStyle="bold"
+          />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/tendp"
+            android:orientation="horizontal">
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User Id"
+                android:id="@+id/date"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="@dimen/fifteendp"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Customer"
+                android:id="@+id/name"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="@dimen/fifteendp"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company"
+                android:id="@+id/qty"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="@dimen/fifteendp"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/refresh"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Status"
+                android:padding="@dimen/fivedp"
+                android:layout_weight="1.2"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_autorenew_black_24dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimary"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Id"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:textSize="@dimen/fifteendp"
+                android:textStyle="bold"
+                android:layout_weight="1.4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username"
+
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:textSize="@dimen/fifteendp"
+                android:textStyle="bold"
+                android:layout_weight="1.3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:textSize="@dimen/fifteendp"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:textSize="@dimen/fifteendp"
+                android:textStyle="bold"
+                android:layout_weight="1.2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/recycler_list">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+

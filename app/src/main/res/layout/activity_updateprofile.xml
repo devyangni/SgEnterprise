@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/mainbackgorund"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/twentydp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First Name"
+                android:layout_marginLeft="@dimen/tendp"
+                android:layout_marginRight="@dimen/tendp"
+                android:layout_marginTop="@dimen/tendp"
+                android:padding="@dimen/fivedp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:editable="false"
+                android:id="@+id/edt_fname"
+                style="@style/EditTextTheme"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_border"
+                android:hint=""
+                android:layout_margin="@dimen/tendp"
+                android:padding="@dimen/tendp"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company Name"
+                android:layout_marginLeft="@dimen/tendp"
+                android:layout_marginRight="@dimen/tendp"
+                android:layout_marginTop="@dimen/tendp"
+                android:padding="@dimen/fivedp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:editable="false"
+                android:id="@+id/edt_companyname"
+                style="@style/EditTextTheme"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_border"
+                android:layout_margin="@dimen/tendp"
+                android:padding="@dimen/tendp"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Mobilenumber"
+                android:layout_marginLeft="@dimen/tendp"
+                android:layout_marginRight="@dimen/tendp"
+                android:layout_marginTop="@dimen/tendp"
+                android:padding="@dimen/fivedp"
+                android:textColor="@color/black"/>
+            <EditText
+                android:editable="false"
+                android:id="@+id/edtfile"
+                style="@style/EditTextTheme"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_border"
+                android:layout_margin="@dimen/tendp"
+                android:padding="@dimen/tendp"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Address"
+                android:layout_marginLeft="@dimen/tendp"
+                android:layout_marginRight="@dimen/tendp"
+                android:layout_marginTop="@dimen/tendp"
+                android:padding="@dimen/fivedp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:editable="false"
+                android:id="@+id/email"
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_border"
+                android:layout_margin="@dimen/tendp"
+                android:hint="" android:focusable="false"
+                android:focusableInTouchMode="false"
+
+                android:padding="@dimen/tendp"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_marginLeft="@dimen/tendp"
+                android:layout_marginRight="@dimen/tendp"
+                android:layout_marginTop="@dimen/tendp"
+                android:padding="@dimen/fivedp"
+                android:textColor="@color/black"/>
+
+
+            <EditText
+                android:editable="false"
+                android:id="@+id/edt_address"
+                style="@style/EditTextTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_margin="@dimen/tendp"
+                android:padding="@dimen/tendp"
+                android:background="@drawable/edt_border"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City"
+                android:layout_marginLeft="@dimen/tendp"
+                android:layout_marginRight="@dimen/tendp"
+                android:layout_marginTop="@dimen/tendp"
+                android:padding="@dimen/fivedp"
+                android:textColor="@color/black"/>
+            <EditText
+                android:editable="false"
+                android:id="@+id/edt_city"
+                style="@style/EditTextTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/tendp"
+                android:padding="@dimen/tendp"
+                android:background="@drawable/edt_border"
+                android:inputType="text"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:layout_marginLeft="@dimen/tendp"
+                android:layout_marginRight="@dimen/tendp"
+                android:layout_marginTop="@dimen/tendp"
+                android:padding="@dimen/fivedp"
+                android:textColor="@color/black"/>
+            <EditText
+                android:editable="false"
+                android:id="@+id/edt_state"
+                style="@style/EditTextTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_margin="@dimen/tendp"
+                android:padding="@dimen/tendp"
+                android:background="@drawable/edt_border"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Postal Code"
+                android:layout_marginLeft="@dimen/tendp"
+                android:layout_marginRight="@dimen/tendp"
+                android:layout_marginTop="@dimen/tendp"
+                android:padding="@dimen/fivedp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:editable="false"
+                android:clickable="false"
+                android:id="@+id/edt_zip"
+                style="@style/EditTextTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_margin="@dimen/tendp"
+                android:padding="@dimen/tendp"
+                android:background="@drawable/edt_border"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/fourteendp"
+                />
+            
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

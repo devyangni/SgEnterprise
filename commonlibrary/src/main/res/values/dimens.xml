@@ -1,0 +1,81 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_height">170dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+    <dimen name="textsize_medium">18sp</dimen>
+    <dimen name="common_text_size">15sp</dimen>
+    <dimen name="textsize_small">12sp</dimen>
+    <dimen name="textsize_big">24sp</dimen>
+    <dimen name="textsize_moresmall">11sp</dimen>
+    <dimen name="textsize_small_chat_day_time">10sp</dimen>
+    <dimen name="dialog_title">20sp</dimen>
+
+
+    <dimen name="twodp">2dp</dimen>
+    <dimen name="threedp">3dp</dimen>
+    <dimen name="fivedp">5dp</dimen>
+    <dimen name="sevendp">7dp</dimen>
+    <dimen name="eightdp">8dp</dimen>
+    <dimen name="tendp">10dp</dimen>
+    <dimen name="twelvedp">12dp</dimen>
+    <dimen name="thirteendp">13dp</dimen>
+    <dimen name="fourteendp">14dp</dimen>
+    <dimen name="fifteendp">15dp</dimen>
+    <dimen name="sixteendp">16dp</dimen>
+    <dimen name="seventeendp">17dp</dimen>
+    <dimen name="eaighteendp">18dp</dimen>
+    <dimen name="twentydp">20dp</dimen>
+    <dimen name="twentyTwodp">22dp</dimen>
+    <dimen name="twentyFivedp">25dp</dimen>
+    <dimen name="thirtydp">30dp</dimen>
+    <dimen name="thirtyFivedp">35dp</dimen>
+    <dimen name="fourtydp">40dp</dimen>
+    <dimen name="fourtyFivedp">45dp</dimen>
+    <dimen name="fourtysevendp">47dp</dimen>
+    <dimen name="fiftydp">50dp</dimen>
+    <dimen name="fiftyFivedp">55dp</dimen>
+    <dimen name="sixtydp">60dp</dimen>
+    <dimen name="sixtyFivedp">65dp</dimen>
+    <dimen name="seventydp">70dp</dimen>
+    <dimen name="seventyFivedp">75dp</dimen>
+    <dimen name="eightydp">80dp</dimen>
+    <dimen name="eightyFivedp">85dp</dimen>
+    <dimen name="ninghtydp">90dp</dimen>
+    <dimen name="ninghtyFivedp">95dp</dimen>
+    <dimen name="hundreddp">100dp</dimen>
+    <dimen name="hundredFivedp">105dp</dimen>
+
+
+
+
+
+    <!--Text sizes-->
+    <dimen name="text_8">8sp</dimen>
+    <dimen name="text_10">10sp</dimen>
+    <dimen name="text_11">11sp</dimen>
+    <dimen name="text_9">9sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_13">13sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_17">17sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_25">25sp</dimen>
+    <dimen name="text_30">30sp</dimen>
+    <dimen name="text_22">22sp</dimen>
+    <dimen name="text_24">240sp</dimen>
+    <dimen name="text_26">26sp</dimen>
+    <dimen name="text_28">28sp</dimen>
+    <dimen name="text_32">32sp</dimen>
+    <dimen name="text_36">36sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+
+
+
+</resources>

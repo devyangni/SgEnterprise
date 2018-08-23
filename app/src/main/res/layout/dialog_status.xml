@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogrup">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pending"
+            android:id="@+id/rbt_pending"
+            android:padding="@dimen/tendp"
+            android:drawablePadding="@dimen/fifteendp"
+            android:drawableLeft="@drawable/ic_blue"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Active"
+            android:id="@+id/rbt_active"
+            android:padding="@dimen/tendp"
+            android:drawablePadding="@dimen/fifteendp"
+            android:drawableLeft="@drawable/ic_yellow"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Completed"
+            android:id="@+id/rbt_completed"
+            android:padding="@dimen/tendp"
+            android:drawablePadding="@dimen/fifteendp"
+            android:drawableLeft="@drawable/ic_green"/><RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rejected"
+        android:id="@+id/rbt_rejected"
+        android:padding="@dimen/tendp"
+        android:drawablePadding="@dimen/fifteendp"
+        android:drawableLeft="@drawable/ic_red"/>
+
+
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fifty_percent_transparency_grey_400">#80bdbdbd</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#ffb054</color>
+    <color name="green">#29A480</color>
+    <color name="green_light">#0CF574</color>
+    <color name="greendark">#27ab4b</color>
+    <color name="grey">#c4c1c1</color>
+    <color name="dark">#787373</color>
+    <color name="darker">#3e3b3b</color>
+    <color name="sky_blue">#3598DB</color>
+    <color name="greenLight">#29AA8C</color>
+    <color name="marun">#951A1D</color>
+    <color name="red_main">#CD0000</color>
+    <color name="red">#CD0000</color>
+    <color name="colorLightBlue">#0071BC</color>
+    <color name="grayColor">#a2a2a2</color>
+    <color name="nav_darkgray">#6d6d6d</color>
+    <color name="transperent_themeblue">#80002944</color>
+    <color name="gray">#a2a2a2</color>
+
+    <color name="white_tr">#99ffffff</color>
+    <color name="lightgray">#F1F2F3</color>
+    <color name="darkgray">#9C9C9C</color>
+    <color name="lighttransblue">#4D0071BC</color>
+    <color name="bg">#CCCDD2</color>
+    <color name="blackTransperent">#80000000</color>
+    <color name="gray_transperent_45">#73787373</color>
+</resources>
+
+    <!--100% — FF
+        95% — F2
+        90% — E6
+        85% — D9
+        80% — CC
+        75% — BF
+        70% — B3
+        65% — A6
+        60% — 99
+        55% — 8C
+        50% — 80
+        45% — 73
+        40% — 66
+        35% — 59
+        30% — 4D
+        25% — 40
+        20% — 33
+        15% — 26
+        10% — 1A
+        5% — 0D
+        0% — 00-->

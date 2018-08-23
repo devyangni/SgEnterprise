@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "26551417351",
+    "firebase_url": "https://sgenterprises-201718.firebaseio.com",
+    "project_id": "sgenterprises-201718",
+    "storage_bucket": "sgenterprises-201718.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26551417351:android:7c550ceb0b4b2cd3",
+        "android_client_info": {
+          "package_name": "com.sgenterprises"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26551417351-aqjqovnmkbiabrnntjkkt73hunufc730.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRzXHaOaPp4C9I5rcD3NpV-xxMcnB9L20"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

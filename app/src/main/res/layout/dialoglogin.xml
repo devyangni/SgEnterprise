@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/tendp"
+    android:background="@drawable/edt_border"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/tendp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/fifteendp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="If you want to access this menu then you need to login or register with us."/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fifteendp"
+        android:layout_weight="1">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:text="Cancel"
+            android:id="@+id/cancel"
+            android:background="@color/white"
+            android:layout_margin="@dimen/tendp"
+            android:layout_weight="0.5"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:text="Login"
+            android:id="@+id/login"
+            android:layout_margin="@dimen/tendp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+</LinearLayout>

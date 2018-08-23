@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Boon4</string>
+    <string name="no_internet_exist">No internet connection!</string>
+    <string name="permission_require">Permission required for this app</string>
+    <string name="redirect_setting">Go to settings and enable permissions</string>
+    <string name="try_again">Try again</string>
+    <string name="dlg_loading">Loading…</string>
+    <string name="dlg_ok">Ok</string>
+    <string name="dlg_cancel">CANCEL</string>
+    <string name="camera_error_message">Error while capturing image</string>
+
+    <string name="internet_connection_slow">Internet connection either slow or not available.please check your network connection.</string>
+    <string name="attempting">You attempted </string>
+    <string name="times">Times.</string>
+    <string name="retry">Retry</string>
+    <string name="could_not_get_data">Couldn\'t find any content from server so please try again.</string>
+    <string name="html_comming">Data came from server either in html form instead of JSON or data may came empty please try after sometimes.</string>
+    <string name="interent_lost">Internet Connection Lost</string>
+    <string name="upload_file_message">Can\'t upload this file</string>
+</resources>
